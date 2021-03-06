@@ -1,0 +1,27 @@
+[2021-03-06T22:03:30.698] [DEBUG] cheese - Url {
+  protocol: 'https:',
+  slashes: true,
+  auth: null,
+  host: 'www.deepl.com',
+  port: null,
+  hostname: 'www.deepl.com',
+  hash: null,
+  search: null,
+  query: null,
+  pathname: '/translator',
+  path: '/translator',
+  href: 'https://www.deepl.com/translator'
+}
+[2021-03-06T22:04:58.333] [DEBUG] cheese - https://www.deepl.com/translator
+[2021-03-06T22:07:58.646] [DEBUG] cheese - http://www.baidu.com/
+[2021-03-06T22:07:58.649] [DEBUG] cheese - http://www.baidu.com/b
+[2021-03-06T22:14:00.615] [DEBUG] cheese - http://www.baidu.com/
+[2021-03-06T22:14:00.617] [DEBUG] cheese - http://www.baidu.com/b
+[2021-03-06T22:14:00.617] [DEBUG] cheese - 1
+[2021-03-06T22:24:45.720] [DEBUG] cheese - http://www.baidu.com/
+[2021-03-06T22:24:45.722] [DEBUG] cheese - http://www.baidu.com/b
+[2021-03-06T22:24:45.722] [DEBUG] cheese - 1
+[2021-03-06T22:25:08.180] [DEBUG] cheese - http://www.baidu.com/
+[2021-03-06T22:25:08.182] [DEBUG] cheese - http://www.baidu.com/b
+[2021-03-06T22:25:08.182] [DEBUG] cheese - 1
+[2021-03-06T22:25:08.182] [DEBUG] cheese - ?id=1

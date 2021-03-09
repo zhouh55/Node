@@ -25,6 +25,9 @@
 # node 端 ajax
 - superagent
 
+# node events模块
+- 通过 on 自定义事件。通过 emit 触发事件
+- 和 Vue 的 bus 事件原理一样
 # node 疑问 
 - 为什么 buffer数组 经过 join后会被装换成字符串。
 - 在数据传输中不管任意类型数据，最终都会被转换成字符串 或 Buffer的形式 

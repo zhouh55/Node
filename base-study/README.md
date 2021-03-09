@@ -16,3 +16,15 @@
 - forever
 - pm2 --- 服务器
 
+# node 代理插件
+- http-proxy-middleware
+
+# 爬虫
+- 可通过http请求完页面内容，可通过 转成 虚拟DOM的形式 在通过获取 DOM 树，( cheerio 包 )
+
+# node 端 ajax
+- superagent
+
+# node 疑问 
+- 为什么 buffer数组 经过 join后会被装换成字符串。
+- 在数据传输中不管任意类型数据，最终都会被转换成字符串 或 Buffer的形式 

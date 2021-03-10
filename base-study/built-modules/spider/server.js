@@ -5,6 +5,9 @@ const cheerio = require('cheerio');
 const filterData = data => {
     // console.log(data);
     const $ = cheerio(data);
+    $('img').each(() => {
+        console.log($(this).attr('data-src'));
+    })
     console.log($);
 }
 http.createServer( ( req, res ) => {

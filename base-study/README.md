@@ -28,6 +28,26 @@
 # node events模块
 - 通过 on 自定义事件。通过 emit 触发事件
 - 和 Vue 的 bus 事件原理一样
+
+# node fs模块 --- I/O 异步
+- 错误优先原则
+- mkdir 创建文件夹
+- rename 修改文件夹名字
+- rmdir 删除文件夹
+- readdir 读取文件夹
+
+- writeFile 写文件
+- appendFile 追加内容
+- unlink 删除文件
+- readFile 读取文件
+- readFileSync 读文件（同步）
+- stat 获取当前文件、文件夹的相关信息或状态等
+- watch 监听文件变化
+
+# node readline 逐行读取
+- 比如初始化 npm 项目会依次输入信息（创建Vue脚手架应该也类似）
+
 # node 疑问 
 - 为什么 buffer数组 经过 join后会被装换成字符串。
 - 在数据传输中不管任意类型数据，最终都会被转换成字符串 或 Buffer的形式 
+- pipe 是干啥的？

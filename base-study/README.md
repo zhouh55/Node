@@ -45,8 +45,15 @@
 - watch 监听文件变化
 
 # node readline 逐行读取
+- 命令行 信息采集
 - 比如初始化 npm 项目会依次输入信息（创建Vue脚手架应该也类似）
 
+# node 获取静态资源
+- path.join() 可拼接完整绝对路径
+- mime 插件可通过 .文件名  获取类型
+
+# node buffer
+- buffer 被返回给前端的时候会被根据 content-type 进行转换
 # node 疑问 
 - 为什么 buffer数组 经过 join后会被装换成字符串。
 - 在数据传输中不管任意类型数据，最终都会被转换成字符串 或 Buffer的形式 

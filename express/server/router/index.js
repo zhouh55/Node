@@ -3,6 +3,11 @@ const express = require('express');
 // 路由中间件
 const router = express.Router();
 
+router.get('/api/list', (req, res, next) => {
+    res.send('111');
+})
+
+
 router.get('/index', (req, res, next) => {
     const query = req.query;
     res.send(query);
